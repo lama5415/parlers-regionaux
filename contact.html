@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contactez-moi – Parlers Régionaux</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="site-header" id="site-header">
+  <div class="header-inner">
+    <div class="header-titles">
+      <p class="site-title"><a href="index.html">Parlers Régionaux</a></p>
+      <p class="site-description">Par Yves Honorat</p>
+    </div>
+    <nav>
+      <ul class="primary-menu">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="contact.html" class="current">Contactez-moi</a></li>
+        <li><a href="dictionnaire.html">Le dictionnaire</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<header class="entry-header">
+  <div class="entry-header-inner">
+    <h1 class="entry-title">Contactez-moi</h1>
+  </div>
+</header>
+
+<main>
+  <div class="post-inner">
+  <div class="entry-content">
+
+    <p class="has-text-align-center">N'hésitez pas à me contacter par e-mail pour toute question ou suggestion sur le dictionnaire.</p>
+
+    <p class="contact-email">
+      <a class="button" id="contact-link" href="#">M'écrire par e-mail</a>
+      <noscript><br><span class="fallback">Activez JavaScript pour afficher l'adresse, ou écrivez à nom [at] domaine [point] fr.</span></noscript>
+    </p>
+
+  </div>
+  </div>
+</main>
+
+<script>
+  (function () {
+    var user = "contact";
+    var domain = "yves-honorat.fr";
+    var link = document.getElementById("contact-link");
+    link.href = "mailto:" + user + "@" + domain;
+  })();
+</script>
+
+<footer class="site-footer" id="site-footer">
+  <div class="footer-inner">
+    <p class="footer-copyright">© 2026 <a href="index.html">Parlers Régionaux</a></p>
+    <a class="to-the-top" href="#site-header">Vers le haut <span aria-hidden="true">↑</span></a>
+  </div>
+</footer>
+
+</body>
+</html>
